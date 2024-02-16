@@ -19,8 +19,14 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvTotalAmount: TextView
     private lateinit var tvTipDescription: TextView
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
         super.onCreate(savedInstanceState)
+
+        //oll correct
         setContentView(R.layout.activity_main)
         etBaseAmount = findViewById(R.id.etBaseAmount)
         seekBarTip = findViewById(R.id.seekBarTip)
